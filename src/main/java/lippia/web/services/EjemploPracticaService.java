@@ -9,8 +9,7 @@ import static com.crowdar.core.actions.WebActionManager.navigateTo;
 
 public class EjemploPracticaService extends ActionManager {
 
-    public static void navegarWeb(){
-        navigateTo(PropertyManager.getProperty("web.base.url"));
+    public static void navegarWeb(){navigateTo(PropertyManager.getProperty("web.base.url"));
     }
 
     public static void clickButton(){
